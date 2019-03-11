@@ -72,7 +72,7 @@ nav {
 	position: fixed;
 	width: calc(100% - 60px);
 	margin-left: 10px;
-	padding: 10px 0;
+	padding: 5px 10px;
 	background: rgb(49, 110, 168);
 	z-index: 1;
 	text-align: right;
@@ -80,13 +80,14 @@ nav {
 }
 
 .logo {
-	width: 15%;
+	/* width: 15%; */
 	float: left;
+	/* background-image: "logo.jpg"; */
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 25px;
 	text-align: left;
-	padding-left: 2%;
+	padding-left: 1%;
 }
 
 .menu-area li {
@@ -99,7 +100,7 @@ nav {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	display: block;
-	padding: 0 25px;
+	padding: 10px 25px;
 	font-size: 14px;
 	line-height: 30px;
 	position: relative;
@@ -165,14 +166,19 @@ h3 {
 	justify-content: center;
 }
 
-img {
+.img {
 	width: 300px;
 	height: 300px;
 	margin: 10px;
 	transition: all 1s;
 }
 
-img:hover {
+#logoimg{
+	width: 140px;
+	height: 50px;
+}
+
+.img:hover {
 	transform: scale(1.1);
 }
 
@@ -187,6 +193,11 @@ img:hover {
 	left: 43%;
 	/* width: 200px;
 	height: 200px; */
+}
+
+#JSGif{
+	position: relative;
+	left: 30%;
 }
 
 #qr{
@@ -263,10 +274,10 @@ img:hover {
 	width: 100%;
 	padding: 3%;
 	background:  rgb(49, 110, 168);
-	border-bottom: 2px solid #43D1AF;
-	border-top-style: none;
-	border-right-style: none;
-	border-left-style: none;	
+	border-bottom: 3px solid #43D1AF;
+	border-top: 3px solid #43D1AF;
+	border-right: 3px solid #43D1AF;
+	border-left: 3px solid #43D1AF;
 	color: #fff;
 }
 .form-style-6 input[type="submit"]:hover,
